@@ -28,10 +28,26 @@ confounding by unreplicated events in phylogenetic regression".
 
   Also creates Figs. S7, S8, and S9.
 
+* **`Figure_Simulations_III.ipynb`**
+
+  Generates results for Fig. 5. Analyzes the recall after adding eigenvectors in phylogenetic generalized least squares (PGLS)
+  for Yule trees of varying numbers of species and different non-zero values of the true egression coefficient $\beta$.
+
+* **`Figure_Simulations_IV.ipynb`**
+
+  Generates results for Fig. 6. Compares the performance using eigenvectors in phylogenetic generalized least squares (PGLS) versus
+  robust regression on phylogenetic independent contrasts (PIC) in different scenarios. Investigates both the false positive rate and the recall.
+
 * **`Figure_Cichlids.ipynb`**
 
-  Generates results for Fig. 5. Visualizes contributions of branches to the phylogenetic eigenvectors for the tree of
+  Generates results for Fig. 7. Visualizes contributions of branches to the phylogenetic eigenvectors for the tree of
   African cichlids and investigates the effect of including phylogenetic eigenvectors on detection of coevolution of gene-expression levels.
+
+  Generates results for Fig. S23. Visualizes the number of pairs that fall into different bins of estimated $\beta$ sizes as more eigenvectors
+  are included in phylogenetic generalized least squares (PGLS) to detect coevolution of gene-expression levels in African cichlids.
+
+  Generates results for Fig. S24. Creates a quantile-quantile plot showing the performance of using eigenvectors in phylogenetic generalized least squares
+  (PGLS) on detection of coevolution of gene-expression levels in African cichlids.
 
 
 * **`Supplementary_1.ipynb`**
@@ -51,17 +67,17 @@ confounding by unreplicated events in phylogenetic regression".
 
 * **`Supplementary_4.ipynb`**
 
-  Generates results for Fig. S10. Investigates the performance of pure PGLS to remove phylogenetic confounding
+  Generates results for Fig. S13. Investigates the performance of pure PGLS to remove phylogenetic confounding
   in models with 16 tips related by a Yule tree with a non-Brownian shift in both predictor and outcome variables.
 
 * **`Supplementary_5.ipynb`**
 
-  Generates results for Figs. S11 and S12. Investigates the performance of using eigenvectors in PGLS to remove
+  Generates results for Figs. S10 and S11. Investigates the performance of using eigenvectors in PGLS to remove
   phylogenetic confounding in a model with 16 tips related by a Yule tree with two non-Brownian shifts in both predictor and outcome variables.
 
 * **`Supplementary_6.ipynb`**
 
-  Generates results for Fig. S13. Investigates the performance of using eigenvectors in PGLS to remove phylogenetic confounding
+  Generates results for Fig. S12. Investigates the performance of using eigenvectors in PGLS to remove phylogenetic confounding
   in a model with 16 tips related by a Yule tree with multiple non-Brownian shifts in both predictor and outcome variables.
 
 * **`Supplementary_7.ipynb`**
@@ -79,11 +95,30 @@ confounding by unreplicated events in phylogenetic regression".
   in a model with 16 tips related by a Yule tree with a non-Brownian shift in both predictor and outcome variables
   for different non-zero values of the true egression coefficient $\beta$.
 
+* **`Response_beta.ipynb`**
+
+  Generates results for Figs. S18 and S19. Investigates the estimates of the regression coefficient $\hat{\beta}$
+  after adding eigenvectors in OLS and PGLS in a model with 16 tips related by a Yule tree with a non-Brownian shift
+  in both predictor and outcome variables for different non-zero values of the true egression coefficient $\beta$.
+
+* **`Response_PIC_robust.ipynb`**
+
+  Generates results for Fig. S20. Creates a quantile-quantile plot showing the performance of different robust regression methods in
+  controlling phylogenetic confounding when there is a shift on the tree.
+
+  Generates results for Fig. S21. Investigates the performance of using S and MM estimators of robust regression in combination with
+  phylogenetic independent contrasts (PIC) to remove phylogenetic confounding in a model with 16 tips related by a Yule tree
+  with multiple non-Brownian shifts in both predictor and outcome variables.
+
+  Generates results for Fig. S22. Analyzes the recall of using S and MM estimators of robust regression in combination with
+  phylogenetic independent contrasts (PIC) for Yule trees of varying numbers of species and different non-zero values of
+  the true regression coefficient $\beta$.
+
 ## **Folder**
 
-* **`Figures/`**
+* **`Figures_2.0/`**
 
-  Contains all the figures (Figs. 1 to 5 and S1 to S17) in both `.pdf` and `.svg` formats.
+  Contains all the figures (Figs. 1 to 7 and S1 to S24) in both `.pdf` and `.svg` formats.
 
 
   
